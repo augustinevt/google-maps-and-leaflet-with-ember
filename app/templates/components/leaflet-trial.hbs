@@ -3,7 +3,7 @@
   {{#if nightMode}}
     {{tile-layer url="http://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}.png"}}
   {{else}}
-    {{tile-layer url="http://{s}.basemaps.cartocdn.com/light_all/{z}/{x}/{y}.png"}}
+    {{tile-layer url="https://cartocdn_{s}.global.ssl.fastly.net/base-antique/{z}/{x}/{y}.png"}}
   {{/if}}
 
   {{#each restaurants as |r|}}
